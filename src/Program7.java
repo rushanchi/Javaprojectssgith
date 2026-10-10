@@ -1,10 +1,9 @@
 public class Program7 {
     public static void main(String[] args) {
-        long start = System.nanoTime();
 
         double n = 1;
         double c = 1;
-        double x = -1;
+        double x = 10;
         double s = 1;
 
         while (true) {
@@ -17,10 +16,7 @@ public class Program7 {
             }
         }
 
-        long end = System.nanoTime();
-
         System.out.println("Результат: " + c);
-        System.out.println("Время: " + (end - start) + " нс");
 
     }
 }
