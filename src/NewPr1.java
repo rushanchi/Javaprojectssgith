@@ -1,10 +1,9 @@
 public class NewPr1 {
     public static void main(String[] args) {
-
+        int c = 3;
+        System.out.println(c);
     }
 
-    public static int summ(int a, int b) {
-        int c = a + b;
-        return c;
-    }
+
+
 }
