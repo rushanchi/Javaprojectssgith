@@ -3,4 +3,8 @@ public class NewPr1 {
 
     }
 
+    public static int summ(int a, int b) {
+        int c = a + b;
+        return c;
+    }
 }
